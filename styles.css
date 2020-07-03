@@ -1,0 +1,125 @@
+
+
+/* Navbar+Title */
+#title{background-color: #ff4c68;}
+.container-fluid{
+  padding:  3% 15% 6% 15%;
+}
+
+/* Navbar (write the name then ctrl /) */
+.navbar{padding-bottom: 4.5rem;
+padding-left: 0px;}
+
+.navbar-brand{font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+font-weight: bold;}
+
+.nav-item{font-family: 'Ubuntu', sans-serif;
+  line-height: 2;
+  padding: 0px 18px 0px 18px;}
+
+  .nav{padding-bottom: 4%;}
+
+/* Title */
+.title-image{width: 60%;
+transform: rotate(25deg);
+position: absolute;
+right: 30%;}
+
+.title-text{
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  line-height: 1.5;
+  margin-bottom: 3rem;
+  font-weight: bold;}
+.meet{margin-bottom: 7%}
+  .download-button{margin-right: 14px;}
+
+/* Feature */
+.check{font-size: 4rem;
+  /* fa-4x can also be used in class to make the icon 4 times larger */
+color: #ef8172;
+padding-bottom: 15px;
+}
+.check:hover{color:#ff4c68;}
+
+#features{padding:10% 15% 9% 15%;
+background-color: #fff;
+position: relative;}
+
+h3{font-family: 'Montserrat', sans-serif;
+font-size: 1.5rem;
+text-align: center;}
+
+.features-paragraph{color: #8f8f8f;
+text-align: center;
+line-height: 1.5;
+margin-bottom:10%;}
+
+/* Testimonials */
+#testimonials{
+text-align: center;
+color: #fff;
+background-color:#ef8172;}
+
+.carousel-item{padding:10% 15% 5% 15%;}
+
+.testimonials-text{font-family: 'Montserrat', sans-serif;
+font-size: 3rem;
+font-weight: bold;
+line-height: 1.5;
+margin-bottom: 1rem;
+}
+
+.testimonials-image{width: 10%;
+border-radius: 100%;
+margin-right: 2%;}
+
+/* press */
+#press{background-color:#ef8172;
+padding: 0% 6% 5% 6%;
+text-align:center;
+}
+.press-img{font-size: 5rem;
+width:20%;
+padding: 0% 2% 0% 2%;}
+
+/* pricing */
+#pricing{padding:7% 10% 7% 10%;
+text-align: center;}
+.price{padding:3% 3% 3% 3%;}
+.pricing-h2{font-family:'Montserrat', sans-serif;
+ line-height: 2;}
+
+ /* cta */
+ #cta{font-family: 'Montserrat', sans-serif;
+color: #fff;
+background-color: #ff4c68;
+padding: 7% 13% 7% 13%;
+text-align: center;}
+
+.true-love{font-size: 3rem;
+  line-height: 1.5;
+  margin-bottom: 5%;
+  font-weight: bold;
+}
+#footer{
+  padding: 7% 15% 7% 15%;
+  text-align: center;
+  background-color: #fff;
+  color: #8f8f8f;
+}
+.fa{margin:0% 2% 3% 2%;
+font-size: 2rem;
+color: #801336;}
+
+.insta:hover{color:red;}
+.facebook:hover{color:blue; }
+.twitter:hover{color:#0779e4; }
+.envelop:hover{color:rgb(244, 193, 81); }
+
+ @media (max-width:992px) {
+   .title-image{position: static;
+   transform: rotate(0deg);}
+#title{text-align:center;}
+ }
